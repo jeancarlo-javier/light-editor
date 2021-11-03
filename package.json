@@ -1,11 +1,12 @@
 {
-  "name": "light-editor",
-  "version": "0.0.0",
+  "name": "react-light-editor",
+  "version": "1.0.7",
   "scripts": {
     "dev": "vite",
     "build": "vite build",
     "serve": "vite preview"
   },
+  "main": "dist/index.es.js",
   "dependencies": {
     "immutable": "^4.0.0",
     "material-icons": "^1.10.0",
@@ -30,5 +31,8 @@
     "eslit": "^6.0.0",
     "path": "^0.12.7",
     "vite": "^2.6.13"
+  },
+  "peerDependencies": {
+    "react": "^17.0.2"
   }
 }
